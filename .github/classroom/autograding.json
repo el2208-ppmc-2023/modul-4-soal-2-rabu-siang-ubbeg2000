@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "7\r\n2\r\n0\r\n3\r\n0\r\n2\r\n0\r\n1",
+      "output": "Lava yang harus disiapkan Terang adalah: 5 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "6\r\n0\r\n3\r\n0\r\n2\r\n0\r\n1",
+      "output": "Lava yang harus disiapkan Terang adalah: 3 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "3\r\n0\r\n3\r\n0",
+      "output": "Lava yang harus disiapkan Terang adalah: 0 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "5\r\n1\r\n2\r\n3\r\n4\r\n5",
+      "output": "Lava yang harus disiapkan Terang adalah: 0 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "6\r\n0\r\n1\r\n0\r\n2\r\n1\r\n0",
+      "output": "Lava yang harus disiapkan Terang adalah: 1 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "6\r\n3\r\n2\r\n1\r\n2\r\n3\r\n4",
+      "output": "Lava yang harus disiapkan Terang adalah: 4 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "2\r\n2\r\n1",
+      "output": "Lava yang harus disiapkan Terang adalah: 0 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "11\r\n5\r\n4\r\n3\r\n2\r\n1\r\n0\r\n1\r\n2\r\n3\r\n4\r\n5",
+      "output": "Lava yang harus disiapkan Terang adalah: 25 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "20\r\n1\r\n0\r\n2\r\n0\r\n3\r\n0\r\n4\r\n0\r\n5\r\n0\r\n5\r\n0\r\n4\r\n0\r\n3\r\n0\r\n2\r\n0\r\n1\r\n0",
+      "output": "Lava yang harus disiapkan Terang adalah: 25 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "8\r\n10\r\n0\r\n8\r\n20\r\n0\r\n20\r\n0\r\n1",
+      "output": "Lava yang harus disiapkan Terang adalah: 33 ember",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
